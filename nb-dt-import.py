@@ -3,7 +3,7 @@ from git import Repo, exc, RemoteProgress
 from collections import Counter
 from datetime import datetime
 import yaml
-import pynetbox
+import pynautobot as pynetbox
 import glob
 import argparse
 import os
